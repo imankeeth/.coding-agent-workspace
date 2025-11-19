@@ -1,0 +1,28 @@
+{
+  "name": "@coding-agent/workspace",
+  "version": "0.1.0",
+  "description": "Coding Agent Workspace CLI",
+  "bin": {
+    "caw": "./bin/caw"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "bun run ./cli/src/index.ts"
+  },
+  "dependencies": {
+    "effect": "latest",
+    "@effect/cli": "latest",
+    "@effect/platform": "latest",
+    "@effect/platform-node": "latest",
+    "@effect/schema": "latest",
+    "@effect/printer": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "bun-types": "latest",
+    "typescript": "latest"
+  },
+  "author": "Coding Agent",
+  "license": "MIT"
+}

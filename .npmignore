@@ -1,0 +1,9 @@
+node_modules
+src
+tsconfig.json
+bunfig.toml
+.DS_Store
+global/references/*
+projects/*/references/*
+!global/references/.keep
+!projects/.keep
